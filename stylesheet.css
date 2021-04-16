@@ -73,7 +73,7 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    margin-top: 9%;
+    margin-top: 5%;
     margin-left: 11%;
     margin-right: 11%;
     height: 266px;
@@ -83,11 +83,24 @@ body {
     border-radius: 10px;
     width: 350px;
     height: 234px;
+    font-size: 13px;
+}
+.review.r2 {
+    align-self: center;
+}
+.review.r3 {
+    align-self: flex-end;
 }
 .reviewer {
     display: flex;
+    margin: 11% 0 5% 8.6%;
 }
-  .reviewer img {
+.reviewer img {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 7%;
+}
+.reviewer img {
     border-radius: 50%;
 }
 .reviewer .rName {
@@ -95,4 +108,7 @@ body {
 }
 .reviewer .rTitle {
     color: hsl(333, 80%, 67%);
+}
+.anec {
+    margin: 0 8.6% 11% 8.6%;
 }
