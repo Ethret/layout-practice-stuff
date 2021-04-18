@@ -1,0 +1,99 @@
+/*! Style */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+body {
+    font-family: 'Spartan', sans-serif;
+    background-image: url(images/bg-pattern-bottom-mobile.svg), url(images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.tophlf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10% 5%;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 1%;
+}
+.stmt {
+    color: hsl(300, 43%, 22%);
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 7%;
+    line-height: 1;
+}
+.excrpt {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+.rtings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: hsl(300, 43%, 22%);
+}
+.rting {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 2.5% 0;
+    padding: 3%;
+}
+.rting .stars {
+    margin-left: 7%;
+}
+.rting .rText {
+    margin-left: 7%;
+}
+.bothlf {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10% 5%;
+}
+.review {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    height: 234px;
+    font-size: 13px;
+    margin-bottom: 5%;
+}
+.reviewer {
+    display: flex;
+    margin: 11% 0 5% 8.6%;
+}
+.reviewer img {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 7%;
+}
+.reviewer img {
+    border-radius: 50%;
+}
+.reviewer .rName {
+    font-weight: bolder;
+}
+.reviewer .rTitle {
+    color: hsl(333, 80%, 67%);
+}
+.anec {
+    margin: 0 8.6% 11% 8.6%;
+}
